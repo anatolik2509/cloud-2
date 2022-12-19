@@ -1,22 +1,22 @@
 # ДЗ-2
 ## 1. Используемые сервисные аккаунты
-**face-detection-function**:
+### face-detection-function:
 - ai.vision.user
 - ymq.writer
-- storage.viewer
-**function-invoker**:
-- serverless.function.invoker
-**face-cut-container**:
+- storage.viewer  
+### function-invoker:
+- serverless.function.invoker  
+### face-cut-container:
 - storage.viewer
 - storage.uploader
 - ydb.editor
-- container-registry.images.puller
-**face-cut-invoker**:
+- container-registry.images.puller  
+### face-cut-invoker:
 - ymq.reader
-- serverless.containers.invoker
-**api-gateway**:
-- storage.viewer
-**boot-function**:
+- serverless.containers.invoker  
+### api-gateway:
+- storage.viewer  
+### boot-function:
 - ydb.viewer
 - ydb.editor
 ## 2. Объекты
